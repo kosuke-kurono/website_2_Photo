@@ -1,0 +1,176 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(250, 250, 250);
+  color: #474747;
+}
+header {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: #474747;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+p {
+  font-size: 14px;
+}
+.title {
+  margin: 0%;
+  padding: 0.3em;
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  text-align: center;
+}
+.btn a {
+  border-bottom: solid 1px;
+  font-size: smaller;
+}
+/* navi */
+.navi {
+  background-color: #333333;
+}
+.navi .container {
+  display: flex;
+  justify-content: flex-end;
+}
+.menu {
+  padding: 0.5em 2em 0.5em 0;
+  color: white;
+  cursor: pointer;
+}
+/* section1 */
+.cord-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
+}
+.cord {
+  background-color: white;
+  max-width: 30%;
+  margin: 1em;
+}
+.cord p {
+  padding: 0.5em;
+}
+/* section2 main */
+.two-column {
+  display: flex;
+}
+.main-column {
+  flex: 2.2;
+  margin: 1em;
+}
+.main-cord {
+  background-color: white;
+  padding: 1em;
+  margin-bottom: 1.5em;
+}
+.main-cord-date {
+  font-size: small;
+  margin-top: 0.5em;
+}
+.main-cord-date a {
+  padding-right: 1em;
+}
+.cord-title {
+  margin: 0;
+}
+/* sub column */
+.sub-column {
+  flex: 0.8;
+  margin: 1em;
+}
+/* .profile */
+.profile {
+  background-color: white;
+}
+.profile-img {
+  margin-top: 1em;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 0px -20px;
+}
+.profile-img-name {
+  text-align: center;
+  font-weight: bold;
+}
+.profile p {
+  margin: 1em;
+}
+/* ranking */
+.rank {
+  background-color: white;
+}
+.rank > p {
+  text-align: center;
+  font-weight: bold;
+}
+.rank-cord {
+  margin: 0.5em;
+}
+.rank-cord p {
+  margin-top: 0.5em;
+  font-size: small;
+}
+.archive {
+  background-color: white;
+  padding: 0.5em;
+}
+.archive > p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.archive > div {
+  border-top: solid 1px rgb(200, 200, 200);
+  padding: 1em;
+  cursor: pointer;
+  font-size: small;
+}
+.archive a {
+  padding-left: 8px;
+}
+footer {
+  background-color: rgb(210, 210, 210);
+  font-size: 14px;
+}
+footer > p {
+  text-align: center;
+  font-size: small;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-title {
+  font-weight: bold;
+}
+.footer-cord {
+  width: 30%;
+  padding: 2em 1em;
+}
+.footer-menu {
+  border-bottom: solid 1px #b5b5b5;
+  padding: 0.5em 1em;
+}
+ul {
+  padding-left: 0;
+}
+li {
+  padding: 0.2em;
+  list-style: none;
+}
+li:before {
+  content: "▶";
+}
