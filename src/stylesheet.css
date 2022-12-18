@@ -1,5 +1,4 @@
 body {
-  font-family: sans-serif;
   background-color: rgb(250, 250, 250);
   color: #474747;
 }
@@ -30,6 +29,10 @@ p {
 .btn {
   text-align: center;
 }
+.btn a:hover {
+  background-color: rgb(211, 211, 211);
+  transition: 0.5s;
+}
 .btn a {
   border-bottom: solid 1px;
   font-size: smaller;
@@ -38,14 +41,21 @@ p {
 .navi {
   background-color: #333333;
 }
-.navi .container {
+.menu-list {
   display: flex;
   justify-content: flex-end;
 }
 .menu {
-  padding: 0.5em 2em 0.5em 0;
+  padding: 0.5em 1em;
   color: white;
   cursor: pointer;
+}
+.menu:hover {
+  background-color: #4d4d4d;
+  transition: 0.7s;
+}
+.mobile-menu-icon {
+  display: none;
 }
 /* section1 */
 .cord-section {
@@ -130,10 +140,9 @@ p {
 .archive > p {
   text-align: center;
   font-weight: bold;
-  margin-bottom: 1em;
 }
 .archive > div {
-  border-top: solid 1px rgb(200, 200, 200);
+  border-bottom: solid 1px rgb(200, 200, 200);
   padding: 1em;
   cursor: pointer;
   font-size: small;
@@ -173,4 +182,7 @@ li {
 }
 li:before {
   content: "▶";
+}
+.twitter-timeline {
+  max-width: 300px;
 }

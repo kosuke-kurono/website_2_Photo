@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="src/stylesheet.css">
   <link rel="stylesheet" href="src/sanitize.css">
+  <link rel="stylesheet" href="src/layout.css">
   <title>Travel</title>
 </head>
 <body>
@@ -17,11 +18,18 @@
         </div>
         <div class="navi">
           <div class="container">
-            <div class="menu">News</div>
-            <div class="menu">Work</div>
-            <div class="menu">Product</div>
-            <div class="menu">Service</div>
-            <div class="menu">Contact</div>
+            <button class="mobile-menu-icon" onclick="document.querySelector('body').classList.toggle('menu-open');">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <div class="menu-list">
+              <div class="menu">News</div>
+              <div class="menu">Work</div>
+              <div class="menu">Product</div>
+              <div class="menu">Service</div>
+              <div class="menu">Contact</div>
+            </div>
           </div>
         </div>
     </header>
@@ -163,7 +171,7 @@
         <div class="footer-cord">
           <p class="footer-title">Twitter</p>
           <div class="twitter">
-            <a class="twitter-timeline" data-width="300" data-height="250" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-width="" data-height="250" href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
       </section>
