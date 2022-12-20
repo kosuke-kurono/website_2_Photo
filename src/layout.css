@@ -31,6 +31,7 @@
   .menu-open .menu-list {
     display: block;
     top: 35px;
+    z-index: 5;
   }
   .menu-open .menu {
     transition: transform 1s;
